@@ -108,11 +108,11 @@
 
     -Estado de Conexión:
 
-        -Observa el estado de los usuarios (Conectado/Desconectado) en el encabezado del chat para saber quiénes están disponibles.
+    --Observa el estado de los usuarios (Conectado/Desconectado) en el encabezado del chat para saber quiénes están disponibles.
 
     -Foto de Perfil:
 
-        -Cada usuario tiene una foto de perfil visible junto a sus mensajes, facilitando la identificación.
+    --Cada usuario tiene una foto de perfil visible junto a sus mensajes, facilitando la identificación.
 
 # Documentación Técnica
 

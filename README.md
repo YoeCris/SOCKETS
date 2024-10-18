@@ -1,68 +1,44 @@
-# CodeIgniter 4 Application Starter
+# Chat Nexely Prueba
 
-## What is CodeIgniter?
+## Descripción
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+**Chat Nexely Prueba** es una aplicación de **chat en tiempo real** desarrollada en **PHP** utilizando el framework **CodeIgniter 4** y la biblioteca **Ratchet** para manejar **WebSockets**. La aplicación está diseñada para ofrecer una experiencia de comunicación instantánea y enriquecida con funcionalidades clave que mejoran la interacción entre los usuarios.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Características Principales
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+- **Envío y Recepción de Mensajes de Texto:**
+  - Permite a los usuarios enviar y recibir mensajes de texto de forma instantánea, facilitando una comunicación fluida.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+- **Soporte de Emojis:**
+  - Integra un selector de emojis que permite a los usuarios enriquecer sus mensajes con expresiones visuales.
 
-## Installation & updates
+- **Interfaz Profesional con Tema Oscuro y Opción de Fondo Personalizado:**
+  - Diseño moderno y atractivo con tema oscuro, ideal para programadores y usuarios que prefieren interfaces elegantes.
+  - Posibilidad de personalizar el fondo para adaptar la apariencia a las preferencias del usuario.
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+- **Reacciones a Mensajes mediante Emojis:**
+  - Los usuarios pueden reaccionar a los mensajes recibidos utilizando emojis, mejorando la interacción y retroalimentación en el chat.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+- **Estado de Actividad:**
+  - Muestra en tiempo real el estado de conexión de los usuarios (Conectado/Desconectado), proporcionando información sobre la disponibilidad de los participantes en la conversación.
 
-## Setup
+- **Foto de Perfil:**
+  - Cada usuario puede personalizar su perfil con una foto, facilitando la identificación y personalización de la experiencia de chat.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+## Instalación
 
-## Important Change with index.php
+### Requisitos Previos
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+- **XAMPP** (versión 8.1.25) o cualquier entorno de desarrollo PHP compatible.
+- **Composer** instalado en tu sistema.
+- **CodeIgniter 4** instalado.
+- **Ratchet WebSocket** instalado vía Composer.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+### Pasos de Instalación
 
-**Please** read the user guide for a better explanation of how CI4 works!
+1. **Clonar el Repositorio**
 
-## Repository Management
+   Clona este repositorio en tu directorio de proyectos:
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+   ```bash
+   git clone https://github.com/tuusuario/tu_repositorio.git
